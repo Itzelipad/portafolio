@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title> Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+        <header class="menu__header">
+            <h3 class="menu__title">Itzel Padilla</h3>
+        </header>
+        <div class="menu__toggle" id="menu-toggle">&#9776;</div>
+        <nav class="menu__nav" id="menu-nav">
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Habilidades</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </section>
+    <script src="navbar.js"></script>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title">
+        <div class="title__div">
+            <div class="title__container">
+                <h3 class="title__bio">¡Hola! 👋 soy Itzel Larraga Padilla</h3>
+                <h3 class="title__subsection">Front End Developer</h3>
+                <h3 class="title__description">Desarrolladora front end mexicana, transformando ideas en experiencias
+                    digitales que cautivan y emocionan.</h3>
+                <ul class="title__network">
+                    <!-- Pon los enlaces de tus redes sociales favoritas -->
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/itzel-padilla-5b8406318/">Linkedin</a></li>
+                    <li class="title__network__item"><a href="https://www.instagram.com/itziipad/">Instagram</a></li>
+                </ul>
+            </div>
+            <img class="title__profile" src="assets/perfil.jpg">
+        </div>
+    </section>
+
+    <!-- Sección sobre mi -->
+    <section class="about" id="sobre-mi">
+        <div class="about__container">
+            <h3 class="about__title">Sobre mi</h3>
+            <p class="about__paragraph">Mi nombre es Itzel Larraga Padilla, tengo 21 años y actualmente vivo en México.
+                Desde siempre me ha apasionado el mundo digital y todo lo relacionado con el diseño. </p>
+            <p class="about__paragraph">He trabajado con tecnologías como HTML, CSS y JavaScript, y he utilizado
+                frameworks como Vue.js. Mi enfoque principal es el desarrollo front end, y disfruto mucho creando
+                interfaces de usuario innovadoras y eficientes.</p>
+            <p class="about__paragraph">Estoy constantemente buscando oportunidades para seguir aprendiendo y creciendo
+                en mi carrera, y estoy emocionada por lo que el futuro me depara en el mundo del desarrollo web.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Habilidades</h3>
+        <div class="skills__line">
+            <div class="skills__box">
+                <div class="skills__bar-container">
+                    <div class="skills__name">HTML 5</div>
+                    <div class="skills__bar">
+                        <div class="skills__progress" style="width: 90%;"></div>
+                    </div>
+                    <div class="skills__percentage">90%</div>
+                </div>
+            </div>
+
+            <div class="skills__box">
+                <div class="skills__bar-container">
+                    <div class="skills__name">Javascript</div>
+                    <div class="skills__bar">
+                        <div class="skills__progress" style="width: 80%;"></div>
+                    </div>
+                    <div class="skills__percentage">80%</div>
+                </div>
+            </div>
+
+            <div class="skills__box">
+                <div class="skills__bar-container">
+                    <div class="skills__name">CSS</div>
+                    <div class="skills__bar">
+                        <div class="skills__progress" style="width: 80%;"></div>
+                    </div>
+                    <div class="skills__percentage">80%</div>
+                </div>
+            </div>
+
+            <div class="skills__box">
+                <div class="skills__bar-container">
+                    <div class="skills__name">Vue JS</div>
+                    <div class="skills__bar">
+                        <div class="skills__progress" style="width: 95%;"></div>
+                    </div>
+                    <div class="skills__percentage">95%</div>
+                </div>
+            </div>
+
+            <div class="skills__box">
+                <div class="skills__bar-container">
+                    <div class="skills__name">Figma</div>
+                    <div class="skills__bar">
+                        <div class="skills__progress" style="width: 75%;"></div>
+                    </div>
+                    <div class="skills__percentage">75%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h2 class="academic__title">Formación académica</h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <li class="academic__courses__item__img"><img src="assets/google.png" alt="UFPR Logo"></li>
+                    <li class="academic__courses__item__title">
+                        <h4>Formación en UX Design</h4>
+                    </li>
+                    <li class="academic__courses__item__subtitle">
+                        <p>2023 - Google</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <li class="academic__courses__item__img"><img src="assets/coursera.png" alt="Alura Logo"></li>
+                    <li class="academic__courses__item__title">
+                        <h4>Principios de UX</h4>
+                    </li>
+                    <li class="academic__courses__item__subtitle">
+                        <p>2023 - Coursera</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <li class="academic__courses__item__img"><img src="assets/alura.png" alt="UFRJ Logo"></li>
+                    <li class="academic__courses__item__title">
+                        <h4>Formación Front End</h4>
+                    </li>
+                    <li class="academic__courses__item__subtitle">
+                        <p>En curso - Alura</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h3 class="hobbies__title">Hobbies</h3>
+        <div class="hobbies__container">
+            <div class="hobbies__card">
+                <div class="hobbies__icon">
+                    <i class="material-icons">code</i> <!-- Icono para programación -->
+                </div>
+                <div class="hobbies__text">Programación</div>
+            </div>
+            <div class="hobbies__card">
+                <div class="hobbies__icon">
+                    <i class="material-icons">book</i> <!-- Icono para leer -->
+                </div>
+                <div class="hobbies__text">Leer</div>
+            </div>
+            <div class="hobbies__card">
+                <div class="hobbies__icon">
+                    <i class="material-icons">sports_esports</i> <!-- Icono para videojuegos -->
+                </div>
+                <div class="hobbies__text">Videojuegos</div>
+            </div>
+            <div class="hobbies__card">
+                <div class="hobbies__icon">
+                    <i class="material-icons">tv</i> <!-- Icono para series -->
+                </div>
+                <div class="hobbies__text">Series</div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de Contacto -->
+    <section class="formcontato" id="contacto">
+        <div class="formcontato__contacto">
+            <div class="formcontato__text">
+                <h2 class="formcontato__title">Contacto</h2>
+                <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo
+                    antes posible. </h3>
+                <form class="formcontato__form" name="form" onsubmit="return validarFormulario()">
+                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required>
+                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
+                    <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required>
+                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                        placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>    
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por Itzel Larraga Padilla</p>
+            <p>2024</p>
+        </div>
+    </section>
+    </div>
+    <!-- Script del documento JavaScript -->
+    <script src="validacion.js"></script>
+    <script src="nav.js"></script>
+</body>
+</html>
